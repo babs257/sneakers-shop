@@ -50,6 +50,16 @@ h4 {
   margin-left: 10px;
 }
 
+.category1 {
+  margin-top: 130px;
+  margin-left: 10px;
+}
+
+.category1 > p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .middle {
   width: 27px;
   height: 2px;
@@ -78,7 +88,7 @@ h4 {
   margin-top: 85px;
 }
 
-.menu-link >h5 {
+.menu-link > h5 {
   margin-left: 60px;
   margin-top: -12px;
 }
@@ -113,11 +123,42 @@ h4 {
 
 .shop-now {
   margin-top: 110px;
-  color: lightgray;
+  color: rgb(150, 146, 146);
 }
 
-.right {  
+.right {
   float: right;
+  display: block;
+}
+
+.right > p {
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.fa-circle {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(17, 27, 0);
+}
+
+.fa-search,
+.fa-user {
+  margin-left: 43px;
+}
+
+.date {
+  margin-top: 260px;
+  margin-left: 10px;
+  letter-spacing: 5px;
+}
+
+.scroll {
+  margin-left: 90px;
+  margin-top: 180px;
+  font-size: 9px;
+  margin-right: 35px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -132,56 +173,104 @@ h4 {
 
   .main-container {
     display: block;
-    margin: auto ;
+    background-color: #e9e3e3d5;
+    height: auto;
   }
 
-  .mobile-center {
+  .middle-picture {
     display: block;
-    position: relative;
-    width: 560px;
-    background: url(../images/7.jpg) no-repeat;
-    height: 660px;
-    margin-top: 0;
-    max-width: 100%;
- }
+    width: 100%;
+    background-color: #e9e3e3d5;
+    padding: 0;
+    margin-top: -150px;
+  }
 
-  .shop-mobile {
+  .middle-picture > img {
+    width: 100vh;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .shop {
     display: block;
-    position: relative;
-    top: 450px;
-    left: 260px;
-    width: 270px;
-    height: 215px;
-    font-size: 12px;
-    background-color: white;
+    height: 260px;
+    width: 400px;
+    background-color: whitesmoke;
+    margin-top: -290px;
+    margin-left: 270px;
   }
 
-  .mobile-collection1 {
-    position: relative;
-    top: 30px;
-    margin-left: 50px;  
+  .collections {
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
-  .mobile-collection {
-    position: relative;
-    top: 40px;
-    margin-left: 50px;  
-  }
-
-  .mobile-now {
-    margin-left: 50px;
-    margin-top: 150px;
+  .shop-now {
+    margin-top: 80px;
+    margin-left: 20px;
   }
 
   .left-side,
   .right,
-  .right-side,
-  .middle-picture {
+  .right-most-side,
+  .raised-shoe {
     display: none;
   }
-} 
+}
 
 @media only screen and (max-width: 768px) {
+  .mobile-nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .main-container {
+    display: block;
+    height: auto;
+    margin: 2px 0 0 0;
+    background-color: #e9e3e3d5;
+  }
+
+  .middle-picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #e9e3e3d5;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto auto 0;
+  }
+
+  .middle-picture > img {
+    width: 100vh;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .right-side,
+  .shop {
+    display: block;
+    height: 240px;
+    width: 400px;
+    margin-left: 110px;
+  }
+
+  .shop-now {
+    margin-top: 80px;
+  }
+
+  .left-side,
+  .right,
+  .right-most-side,
+  .raised-shoe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 530px) {
   .mobile-nav-header {
     display: flex;
     flex-direction: row;
@@ -193,43 +282,35 @@ h4 {
 
   .main-container {
     display: block;
-    height: 500px;
-    margin: -20px 0 0 0;
-  }
-
-  .mobile-center {
-    display: block;
-    width: 100%;
-    background: url(../images/7.jpg) no-repeat;
-    background-size: contain;
-    height: 100%;
- }
-
-  .shop-mobile {
-    display: block;
-    position: relative;
-    top: 510px;
-    width: 100%;
-    height: 150px;
-    font-size: 12px;
+    margin: 2px 0 0 0;
     background-color: white;
   }
 
-  .mobile-collection {
-    margin-top: 20px;
-    margin-left: 40px;  
+  .middle-picture {
+    display: block;
+    width: 100%;
+    background-color: #e9e3e3d5;
+    padding: 0 20px 20px 20px;
+    margin: auto;
   }
 
-  .mobile-now {
-    margin-left: 40px;
-    margin-top: 30px;
-    font-size: 9px;
+  .shop {
+    display: block;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: -80px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .shop-now {
+    margin-top: 80px;
   }
 
   .left-side,
   .right,
-  .right-side,
-  .middle-picture {
+  .right-most-side,
+  .raised-shoe {
     display: none;
   }
 }
