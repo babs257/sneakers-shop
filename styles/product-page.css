@@ -36,7 +36,7 @@ h4 {
   display: grid;
   grid-template-columns: 2.5fr 7.5fr 1.5fr;
   background-color: white;
-  margin: 150px auto 150px auto;
+  margin: 100px;
 }
 
 .left-side {
