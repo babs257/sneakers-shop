@@ -40,6 +40,10 @@ h4 {
   margin-bottom: 20px;
 }
 
+.midd {
+  display: none;
+}
+
 .category {
   margin-top: 85px;
   margin-left: 10px;
