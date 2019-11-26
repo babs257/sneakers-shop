@@ -1,23 +1,16 @@
-# sneakers-shop
+# SNEAKERS-SHOP
 This is a sneakers-shop website [Front-end Design]
 
 # View Demo
+ https://babs257.github.io/sneakers-shop/
 
 # Watch a video presentation of the project below
 
 
 <h3 align="center">The Project was designed by - Babatunde Samuel</h3>
 
-    This project is titled project capstone which involves coding an already designed template within a given timeframe.
-    Here is a link to the templates the pages were made from 
-
-#                                   Tools and Technologies Used
-#      HTML5 : for markup
-    CSS3 :for styling
-    Linter and Stickler :for validation
-
       Contributions:
-<a href="https://github.com">Make contributions here. All contributions are warmly welcomed  :)</a>
+<a href="https://github.com/babs257/sneakers-shop/pull/2">Make contributions here. All contributions are warmly welcomed  :)</a>
 <br/>
 
  <p align="center">
@@ -43,6 +36,6 @@ Babatunde Samuel :man: - [Github profile](https://github.com/babs257)
 
 ## Screenshot
 
-![User Page _ Mixin Social App - Google Chrome 07_11_2019 07_36_25 AM]()
+![User Page _ Mixin Social App - Google Chrome 07_11_2019 07_36_25 AM](https://github.com/babs257/sneakers-shop/blob/feature/images/screenshot.JPG)
 
 
