@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src:
+    url('../styles/fonts/HelveticaNeuBold.ttf') format('truetype'),
+    url('../styles/fonts/helveticaneue-webfont.woff') format('woff');
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #313131;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+.heading {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.mobile-nav-header {
+  display: none;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr 4.5fr 1.5fr;
+  background-color: #fff;
+}
+
+.left-side {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.midd {
+  display: none;
+}
+
+.category {
+  margin-top: 85px;
+  margin-left: 10px;
+}
+
+.category > p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.category1 {
+  margin-top: 130px;
+  margin-left: 10px;
+}
+
+.category1 > p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.middle {
+  width: 27px;
+  height: 2px;
+  background-color: #313131;
+  margin: 3px 0;
+}
+
+.first {
+  width: 17px;
+  height: 2px;
+  background-color: #313131;
+}
+
+.second {
+  width: 17px;
+  height: 2px;
+  background-color: #313131;
+  margin-left: 10px;
+}
+
+.menu-icon {
+  margin-left: 20px;
+}
+
+.menu {
+  margin-top: 85px;
+}
+
+.menu-link > h5 {
+  margin-left: 60px;
+  margin-top: -12px;
+}
+
+.middle-picture > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.mobile-center {
+  display: none;
+}
+
+.raised-shoe {
+  max-width: 100%;
+  margin-left: 5px;
+  height: 250px;
+  width: 350px;
+}
+
+.shop {
+  position: relative;
+  top: 100px;
+  left: 70px;
+}
+
+.shop-mobile {
+  display: none;
+}
+
+.collections {
+  font-size: 12px;
+}
+
+.shop-now {
+  margin-top: 150px;
+  color: #313131;
+}
+
+.right {
+  float: right;
+  display: block;
+}
+
+.right > p {
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.fa-circle {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #313131;
+}
+
+.fa-search,
+.fa-user {
+  margin-left: 43px;
+}
+
+.date {
+  margin-top: 280px;
+  margin-left: 20px;
+  letter-spacing: 5px;
+}
+
+.scroll {
+  margin-left: 110px;
+  margin-top: 210px;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 5px;
+    width: 100%;
+    margin-left: -2px;
+  }
+
+  .main-container {
+    display: block;
+    background-color: #f5f5f5;
+    height: auto;
+  }
+
+  .middle-picture {
+    display: block;
+    width: 100%;
+  }
+
+  .shop-mobile {
+    display: block;
+    height: 330px;
+    width: 50%;
+    position: relative;
+    background-color: #fff;
+    margin-left: 505px;
+    margin-top: -360px;
+  }
+
+  .shop-mobile > p {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+
+  .shop-now {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .left-side,
+  .right,
+  .right-side,
+  .right-most-side,
+  .raised-shoe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .main-container {
+    display: block;
+    height: 100%;
+    margin: 2px 0 0 0;
+    background-color: #f5f5f5;
+  }
+
+  .shop-mobile {
+    height: 355px;
+    width: 50%;
+    float: right;
+    margin-left: -20px;
+  }
+
+  .shop-now {
+    margin-top: 80px;
+  }
+
+  .left-side,
+  .right,
+  .right-side,
+  .right-most-side,
+  .raised-shoe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .mobile-nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 98%;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu-mobile {
+    margin-top: 14px;
+  }
+
+  .main-container {
+    display: block;
+    background-color: #fff;
+    width: 90%;
+  }
+
+  .middle-picture > img {
+    max-width: none;
+    width: 400px;
+  }
+
+  .shop-mobile {
+    margin: 0;
+    float: left;
+  }
+
+  .shop-now {
+    display: block;
+    margin: 30px 0 0 20px;
+  }
+
+  .collections {
+    margin: 20px 0 0 20px;
+  }
+
+  .left-side,
+  .right,
+  .right-side,
+  .right-most-side,
+  .raised-shoe {
+    display: none;
+  }
+}
