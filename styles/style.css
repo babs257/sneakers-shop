@@ -7,12 +7,12 @@
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: rgba(230, 227, 227, 0.973);
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #313131;
 }
 
 h4 {
@@ -20,7 +20,7 @@ h4 {
 }
 
 .heading {
-  margin-top: 5px;
+  margin-top: 0;
   margin-left: 10px;
 }
 
@@ -31,8 +31,7 @@ h4 {
 .main-container {
   display: grid;
   grid-template-columns: 1.5fr 4fr 4.5fr 1.5fr;
-  background-color: white;
-  margin: 150px;
+  background-color: #fff;
 }
 
 .left-side {
@@ -67,20 +66,20 @@ h4 {
 .middle {
   width: 27px;
   height: 2px;
-  background-color: black;
+  background-color: #313131;
   margin: 3px 0;
 }
 
 .first {
   width: 17px;
   height: 2px;
-  background-color: black;
+  background-color: #313131;
 }
 
 .second {
   width: 17px;
   height: 2px;
-  background-color: black;
+  background-color: #313131;
   margin-left: 10px;
 }
 
@@ -100,7 +99,7 @@ h4 {
 .middle-picture > img {
   max-width: 100%;
   max-height: 100%;
-  height: 530px;
+  height: auto;
 }
 
 .mobile-center {
@@ -109,25 +108,28 @@ h4 {
 
 .raised-shoe {
   max-width: 100%;
-  margin-left: -9px;
+  margin-left: 5px;
   height: 250px;
   width: 350px;
 }
 
 .shop {
   position: relative;
-  top: 20px;
-  left: 43px;
+  top: 100px;
+  left: 70px;
+}
+
+.shop-mobile {
+  display: none;
 }
 
 .collections {
-  margin-top: 20px;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 .shop-now {
-  margin-top: 110px;
-  color: rgb(150, 146, 146);
+  margin-top: 150px;
+  color: #313131;
 }
 
 .right {
@@ -144,7 +146,7 @@ h4 {
   margin-left: 10px;
   font-size: 20px;
   margin-top: 10px;
-  color: rgb(17, 27, 0);
+  color: #313131;
 }
 
 .fa-search,
@@ -153,15 +155,15 @@ h4 {
 }
 
 .date {
-  margin-top: 260px;
-  margin-left: 10px;
+  margin-top: 280px;
+  margin-left: 20px;
   letter-spacing: 5px;
 }
 
 .scroll {
-  margin-left: 90px;
-  margin-top: 180px;
-  font-size: 9px;
+  margin-left: 110px;
+  margin-top: 210px;
+  font-size: 12px;
   margin-right: 35px;
 }
 
@@ -170,52 +172,48 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
-    padding: 15px;
+    background-color: #f5f5f5;
+    padding: 5px;
     width: 100%;
+    margin-left: -2px;
   }
 
   .main-container {
     display: block;
-    background-color: #e9e3e3d5;
+    background-color: #f5f5f5;
     height: auto;
   }
 
   .middle-picture {
     display: block;
     width: 100%;
-    background-color: #e9e3e3d5;
-    padding: 0;
-    margin-top: -150px;
   }
 
-  .middle-picture > img {
-    width: 100vh;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .shop {
+  .shop-mobile {
     display: block;
-    height: 260px;
-    width: 400px;
-    background-color: whitesmoke;
-    margin-top: -290px;
-    margin-left: 270px;
+    height: 330px;
+    width: 50%;
+    position: relative;
+    background-color: #fff;
+    margin-left: 505px;
+    margin-top: -360px;
   }
 
-  .collections {
-    margin-top: 10px;
-    margin-left: 20px;
+  .shop-mobile > p {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 12px;
   }
 
   .shop-now {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 20px;
   }
 
   .left-side,
   .right,
+  .right-side,
   .right-most-side,
   .raised-shoe {
     display: none;
@@ -227,39 +225,22 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
-    padding: 15px;
+    background-color: #fff;
     width: 100%;
   }
 
   .main-container {
     display: block;
-    height: auto;
+    height: 100%;
     margin: 2px 0 0 0;
-    background-color: #e9e3e3d5;
+    background-color: #f5f5f5;
   }
 
-  .middle-picture {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #e9e3e3d5;
-    padding: 0 20px 20px 20px;
-    margin: 0 auto auto 0;
-  }
-
-  .middle-picture > img {
-    width: 100vh;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .right-side,
-  .shop {
-    display: block;
-    height: 240px;
-    width: 400px;
-    margin-left: 110px;
+  .shop-mobile {
+    height: 355px;
+    width: 50%;
+    float: right;
+    margin-left: -20px;
   }
 
   .shop-now {
@@ -268,6 +249,7 @@ h4 {
 
   .left-side,
   .right,
+  .right-side,
   .right-most-side,
   .raised-shoe {
     display: none;
@@ -279,40 +261,44 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
-    padding: 20px 20px 20px 0;
-    width: 100%;
+    background-color: #fff;
+    width: 98%;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu-mobile {
+    margin-top: 14px;
   }
 
   .main-container {
     display: block;
-    margin: 2px 0 0 0;
-    background-color: white;
+    background-color: #fff;
+    width: 90%;
   }
 
-  .middle-picture {
-    display: block;
-    width: 100%;
-    background-color: #e9e3e3d5;
-    padding: 0 20px 20px 20px;
-    margin: auto;
+  .middle-picture > img {
+    max-width: none;
+    width: 400px;
   }
 
-  .shop {
-    display: block;
-    height: 100%;
-    margin-top: 50px;
-    margin-left: -80px;
-    width: 100%;
-    background-color: white;
+  .shop-mobile {
+    margin: 0;
+    float: left;
   }
 
   .shop-now {
-    margin-top: 80px;
+    display: block;
+    margin: 30px 0 0 20px;
+  }
+
+  .collections {
+    margin: 20px 0 0 20px;
   }
 
   .left-side,
   .right,
+  .right-side,
   .right-most-side,
   .raised-shoe {
     display: none;

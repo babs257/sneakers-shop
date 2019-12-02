@@ -5,6 +5,7 @@ This is a sneakers-shop website [Front-end Design]
  https://babs257.github.io/sneakers-shop/
 
 # Watch a video presentation of the project below
+https://www.loom.com/share/f1a5ed31daa442fb88e51e3b2a116cfa
 
 
 <h3 align="center">The Project was designed by - Babatunde Samuel</h3>
